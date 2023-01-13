@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  @include fontStyle(1.8rem, 1.5555, normal, $color-4, 700);
+}
+
+img {
+  display: flex;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: $body-bg;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 165px;
+  padding-right: 165px;
+  @include responsive(desktop) {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  @include responsive(laptop) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  @include responsive(tablet) {
+    max-width: 729px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  @include responsive(minitab) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  @include responsive(mobile) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @include responsive(minmobile) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

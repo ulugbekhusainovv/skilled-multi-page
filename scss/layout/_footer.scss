@@ -1,0 +1,79 @@
+// // HEADER START
+.footer {
+  background-color: $footer-bg-color;
+
+  padding: {
+    top: 29px;
+    bottom: 25px;
+  }
+  width: 100%;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .site-logo {
+    width: 114px;
+    height: 45px;
+  }
+  .footer-btn {
+    background: $background-2;
+    &:active {
+      background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.5),
+          rgba(255, 255, 255, 0.5)
+        ),
+        linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    }
+  }
+  @include responsive(desktop) {
+    padding: {
+      top: 24px;
+      bottom: 22px;
+    }
+    .site-logo {
+      width: 100px;
+      height: 40px;
+    }
+  }
+  @include responsive(laptop) {
+    padding: {
+      top: 20px;
+      bottom: 18px;
+    }
+    .site-logo {
+      width: 90px;
+      height: 35px;
+    }
+  }
+  @include responsive(tablet) {
+    padding: {
+      top: 18px;
+      bottom: 16px;
+    }
+    .site-logo {
+      width: 89px;
+      height: 35px;
+    }
+  }
+  @include responsive(minitab) {
+    padding: {
+      top: 16px;
+      bottom: 14px;
+    }
+  }
+  @include responsive(mobile) {
+    padding: {
+      top: 14px;
+      bottom: 12px;
+    }
+  }
+  @include responsive(minmobile) {
+    padding: {
+      top: 12px;
+      bottom: 10px;
+    }
+  }
+}
+// HEADER END

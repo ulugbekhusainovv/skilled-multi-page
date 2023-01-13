@@ -1,0 +1,52 @@
+body {
+  font-family: $body-font-family;
+  @include fontStyle(1.8rem, 1.55555, normal, $color-3, 500);
+  @media screen and (max-width: 900px) {
+    font-size: 1.6rem;
+    line-height: 1.625;
+    // letter-spacing: -1.43px;
+  }
+}
+
+h1 {
+  @include fontStyle(5.6rem, 1.26785, normal, $color-2, 800);
+  @media screen and (max-width: 900px) {
+    font-size: 4rem;
+    line-height: 1.25;
+    // letter-spacing: -1.78px;
+  }
+}
+
+h2 {
+  @include fontStyle(4rem, 1.25, normal, $color-2, 800);
+  @media screen and (max-width: 900px) {
+    font-size: 3.2rem;
+    line-height: 1.25;
+    // letter-spacing: -1.43px;
+  }
+}
+
+h3 {
+  @include fontStyle(3.2rem, 1.25, normal, $color-2, 800);
+  @media screen and (max-width: 900px) {
+    font-size: 2.4rem;
+    line-height: 1.333333;
+    // letter-spacing: -1.43px;
+  }
+}
+h4 {
+  @include fontStyle(2.4rem, 1.25, normal, $color-2, 800);
+  @media screen and (max-width: 900px) {
+    font-size: 2rem;
+    line-height: 1.25;
+    // letter-spacing: -1.43px;
+  }
+}
+// h5 {
+//   @include fontStyle(2rem, 1.2, -0.89px, $color-2, 700);
+//   font-family: $text-font-family;
+// }
+// h6 {
+//   @include fontStyle(1rem, 1.481, -0.45px, $color-2, 700);
+//   font-family: $text-font-family;
+// }

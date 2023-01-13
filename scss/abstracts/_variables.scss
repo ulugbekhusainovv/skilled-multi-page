@@ -1,0 +1,65 @@
+/* plus-jakarta-sans-regular - latin_cyrillic-ext */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin_cyrillic-ext-regular.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin_cyrillic-ext-regular.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-500 - latin_cyrillic-ext */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin_cyrillic-ext-500.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin_cyrillic-ext-500.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-700 - latin_cyrillic-ext */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin_cyrillic-ext-700.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin_cyrillic-ext-700.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-800 - latin_cyrillic-ext */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin_cyrillic-ext-800.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin_cyrillic-ext-800.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+// colors
+$color-1: #666ca3;
+$color-2: #13183f;
+$color-3: #83869a;
+$color-4: #f74780;
+$white-color: #ffffff;
+$background-1: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+
+$background-2: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+// section-background
+$body-bg: #ffffff;
+// btn
+// main
+$body-font-family: "Plus Jakarta Sans", sans-serif;
+// footer
+$footer-bg-color: #13183f;
