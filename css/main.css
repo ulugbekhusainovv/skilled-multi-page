@@ -435,9 +435,9 @@ h4 {
 }
 .hero .members {
   position: absolute;
-  width: 100%;
+  width: 50%;
   top: 110px;
-  right: -165px;
+  right: -115px;
   z-index: 1;
 }
 @media screen and (max-width: 1024px) {
