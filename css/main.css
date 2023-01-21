@@ -72,6 +72,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  overflow-x: hidden;
   background-color: #ffffff;
 }
 
@@ -273,6 +274,8 @@ h4 {
 }
 .footer .footer-btn {
   background: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+  border: none;
+  transition: 0.3s ease;
 }
 .footer .footer-btn:active {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
@@ -659,20 +662,19 @@ h4 {
 
 .work {
   padding-bottom: 140px;
-  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
 }
-.work .container {
+.work .work__list {
   display: flex;
+  justify-content: center;
+  gap: 8rem 3rem;
   flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 8rem;
 }
 .work .work-item {
   border-radius: 15px;
   background-color: #ffffff;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
-  width: 350px;
-  height: 322px;
+  width: 35rem;
   position: relative;
   padding: 6.4rem 3.2rem 4rem 3.2rem;
 }

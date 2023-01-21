@@ -17,7 +17,9 @@
     height: 45px;
   }
   .footer-btn {
-    background: $background-2;
+    background: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+    border: none;
+    transition: 0.3s ease;
     &:active {
       background: linear-gradient(
           0deg,
